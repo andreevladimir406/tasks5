@@ -1,3 +1,5 @@
+# -*- coding: utf-8 -*-
+
 stuffdict = {'couch_s':(300,75), 
              'couch_b':(500,80), 
              'bed':(400,100), 
