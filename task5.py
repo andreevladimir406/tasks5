@@ -87,3 +87,11 @@ def get_selected_items_list(stuffdict, A=2000):
       return selected_stuff
 
 stuff = get_selected_items_list(stuffdict)
+
+print(stuff)
+
+totarea = sum([stuffdict[item][0] for item in stuff])
+totvalue = sum([stuffdict[item][1] for item in stuff])
+print(totarea)
+
+print(totvalue)
